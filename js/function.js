@@ -9,16 +9,9 @@ var setSound = function() {
 var soundFile = escape(song[Math.floor(Math.random()*song.length)]);
 audio.setAttribute("src", soundFile);
 
-drawScore();
     audio.play();
      
 setSound();
 
 audio.addEventListener("ended", setSound, false);
-}
-var score = 0;
-function drawScore() {
-    ctx.font = "16px Arial";
-    ctx.fillStyle = "#0095DD";
-    ctx.fillText("Score: "+score, 8, 20);
 }
