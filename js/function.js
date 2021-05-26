@@ -10,7 +10,7 @@ var soundFile = escape(song[Math.floor(Math.random()*song.length)]);
 audio.setAttribute("src", soundFile);
 }
 .then(() => {
-    // Audio is playing.
+    
     audio.play();
       })
 
@@ -19,7 +19,6 @@ audio.setAttribute("src", soundFile);
 
 });
 
-// set initial source
 setSound();
-// set a new source, when current sound is done playing
+
 audio.addEventListener("ended", setSound, false);
