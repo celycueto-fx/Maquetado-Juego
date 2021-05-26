@@ -8,4 +8,11 @@ body{
         max-width: 670px;
     }
 
+    @media (min-width: 576px) {
+        .card-columns .card {
+            display: center;
+        }  
+      }
+      
+
 
