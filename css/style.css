@@ -6,43 +6,9 @@ body{
         background-attachment: fixed;
     }
 
- @media only screen and ( max-width: 600px) and (min-width: 40px){  
-  
-#burro{
 
-    background-image: url(./assets/images/burro.png);
-    padding: auto;
-   width: auto;
-    margin: auto;
-}
-#oveja{
-    padding: auto;
-    margin: auto;
-    width: auto;
-}
-#gallina{
-    padding: auto;
-    margin: auto;
-      width: auto;
-}
-#perro{
-    padding: auto;
-   width: auto;
-    margin: auto;
-}
-#marrano{
-   width: auto;
-    padding: auto;
-    margin: auto;
-}
-#vaca{
-   width: auto;
-    padding: auto;
-    margin: auto;
-}
-}
+.perro{
 
-    
-    
-   
-  
+   width: 130px;
+ margin: auto;
+}
