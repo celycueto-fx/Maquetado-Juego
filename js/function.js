@@ -9,16 +9,9 @@ var setSound = function() {
 var soundFile = escape(song[Math.floor(Math.random()*song.length)]);
 audio.setAttribute("src", soundFile);
 }
-.then(() => {
-    
+
     audio.play();
-      })
-
-.catch(error => {
-    console.log(error);
-
-});
-
+     
 setSound();
 
 audio.addEventListener("ended", setSound, false);
