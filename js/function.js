@@ -17,7 +17,7 @@ setSound();
 audio.addEventListener("ended", setSound, false);
 }
 
-var listaImagenes = document.getElementById("listaImagenes"); 
+var listaImagenes = document.getElementById("./assets/images/burro.png"); 
 // el id de donde quiere mostrar tu listado, te recomendaría poner los links directamente
 // no enquilombarte haciendo la concatenación con el ".jpg"
 
