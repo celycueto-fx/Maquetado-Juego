@@ -9,9 +9,8 @@ body{
  @media only screen and ( max-width: 600px) and (min-width: 40px){  
   
 #burro{
+
     background-image: url(./assets/images/burro.png);
-          position: relative;
-  
     padding: auto;
    width: auto;
     margin: auto;
