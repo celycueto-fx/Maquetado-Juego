@@ -22,13 +22,11 @@
   
 
         <div >
-            <style type="text/css">
-#fondos{
-      background: url(./assets/images/perro.png) bottom right no-repeat,
-      url(./assets/images/perro.png) center no-repeat,
-      url(./assets/images/perro.png) center repeat;
-      width: 300px;
-}
+     <picture>
+  <source media="(min-width: 800px)" srcset="./assets/images/perro.png">
+  <source media="(min-width: 480px)" srcset="./assets/images/perro.png">
+  <img src="./assets/images/perro.png" alt="Ejemplo">
+</picture>
 </style>
  </div> 
 
