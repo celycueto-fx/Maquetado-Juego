@@ -6,13 +6,17 @@ body{
         background-attachment: fixed;
         min-width: 467px;
         max-width: 670px;
+        max-height: fit-content;
     }
-
-    @media (min-width: 576px) {
-        .card-columns .card {
-            display: center;
-        }  
-      }
+    .card {
+        margin: 20px auto ; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        
+     
       
-
+}
+#burro{
+    -webkit-transform: rotate(360deg);transform: rotate(360deg);
+}
 
