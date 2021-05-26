@@ -10,6 +10,7 @@ body{
   
 #burro{
     padding: auto;
+   width: auto;
     margin: auto;
 }
 #oveja{
@@ -20,16 +21,20 @@ body{
 #gallina{
     padding: auto;
     margin: auto;
+      width: auto;
 }
 #perro{
     padding: auto;
+   width: auto;
     margin: auto;
 }
 #marrano{
+   width: auto;
     padding: auto;
     margin: auto;
 }
 #vaca{
+   width: auto;
     padding: auto;
     margin: auto;
 }
