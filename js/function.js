@@ -8,10 +8,11 @@ var audio = new Audio();
 var setSound = function() {
 var soundFile = escape(song[Math.floor(Math.random()*song.length)]);
 audio.setAttribute("src", soundFile);
-}
+
 
     audio.play();
      
 setSound();
 
 audio.addEventListener("ended", setSound, false);
+}
