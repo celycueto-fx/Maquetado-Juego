@@ -8,12 +8,10 @@ body{
 
     @media only screen and ( max-width: 600px) and (min-width: 40px){  
   
-    #card-body{
-        max-width: 15rem;
 
     }
 
     
-    }
+    
    
   
