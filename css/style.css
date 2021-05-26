@@ -1,3 +1,4 @@
+@media only screen and (max-width: 767px) {
 body{
         max-width: auto;
         min-width: auto;
@@ -6,7 +7,7 @@ body{
         background-repeat:no-repeat;
         background-attachment: fixed;
     }
-
+}
     @media only screen and ( max-width: 600px) and (min-width: 40px){  
   
 #burro{
